@@ -63,7 +63,7 @@ const WorkFlow = () => {
     }
 
     // update the selcted node when click on Node
-    const onNodeClick = (event: React.MouseEvent, node: Node) => {
+    const onNodeClick = (_: React.MouseEvent, node: Node) => {
         setSelecetdNode(node)
         console.log(selectNode)
     }
